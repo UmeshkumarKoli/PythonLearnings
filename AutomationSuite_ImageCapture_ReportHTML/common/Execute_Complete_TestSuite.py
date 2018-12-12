@@ -28,7 +28,7 @@ def execute_CompleteSuite(dirName, variantType, variant_new,testcaseID):
         input_UPDATE_YES_NO = raw_input(
             "EmbeddedSW_delivery folder doesn't exists, Do you want to checkout EmbeddedSW_deliver folder. Enter  Y,y or N,n\n").upper()
         if (input_UPDATE_YES_NO == "Y"):
-            intergrpath = r"http://dettsvn.tt.de.ifm/svn/sy/libraries/esw/products/o3mxxx/software/integration/tags"
+            intergrpath = r"http://URL"
             versionNum = re.findall(r'\d+', variant_new)
             SW_VERSION = versionNum[0] + '.' + \
                 versionNum[1] + '.' + versionNum[2]
