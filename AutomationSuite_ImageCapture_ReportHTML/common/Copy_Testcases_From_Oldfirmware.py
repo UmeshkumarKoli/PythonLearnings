@@ -26,7 +26,7 @@ def copy_testcases_from_old_firmware(dirName, variantType, variant_old, variant_
                         (variantType, variant_new))
     if not os.path.exists(su_tool_path_new):
         os.mkdir(su_tool_path_new)
-        intergrpath = r"http://dettsvn.tt.de.ifm/svn/sy/libraries/esw/products/o3mxxx/software/integration/tags"
+        intergrpath = r"http://URL"
         versionNum = re.findall(r'\d+', variant_new)
         SW_VERSION = versionNum[0] + '.' + versionNum[1] + '.' + versionNum[2]
 
