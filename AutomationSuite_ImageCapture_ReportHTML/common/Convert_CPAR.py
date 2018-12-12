@@ -22,7 +22,7 @@ def convert_CPAR(dirName, variantType, variant_old, variant_new,videoFormat):
         variant_old {[type]} -- [description]
         variant_new {[type]} -- [description]
     """
-    intergrpath = r"http://dettsvn.tt.de.ifm/svn/sy/libraries/esw/products/o3mxxx/software/integration/tags"
+    intergrpath = r"http://URL"
     su_tool_path_old = (r".\%s\%s\EmbeddedSW_Delivery" %
                         (variantType, variant_old))
     if not os.path.exists(su_tool_path_old):
